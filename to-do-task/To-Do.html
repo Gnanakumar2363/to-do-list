@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div>
+    </div>
+    <div class="main-todo-container">
+        <div class="logoutBtn">
+
+            <button class="delBtn" id="outBtn" type="button">Logout</button>
+        </div>
+        <div class="todo-input-container">
+            <h1 class="title-text">Todo </h1>
+            <input required placeholder="Enter task..." type="text" name="title"
+                id="todo-title">
+            <button onclick="addTask()" class="addBtn">Add Task</button>
+        </div>
+        <div id="todo-list-container"></div>
+    </div>
+    <script>
